@@ -7,6 +7,7 @@ import editor from "../../Assets/Projects/satellite.jpg";
 import chatify from "../../Assets/Projects/chatdb.png";
 import suicide from "../../Assets/Projects/cybersec.jpeg";
 import bitsOfCode from "../../Assets/Projects/earthquake.jpg";
+import decision from "../../Assets/Projects/decisionintelligence.jpg";
 
 function Projects() {
   return (
@@ -26,8 +27,19 @@ function Projects() {
               isBlog={false}
               title="ChatDB"
               description="Built a natural language interface using Gemini LLM to convert user input into executable SQL queries, enabling intuitive access to structured data."
-              //ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/ansh-ops/DSCI551-final-project.git"
               //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={decision}
+              isBlog={false}
+              title="Autonomous Decision Intelligence System (Bring-Your-Own Data)"
+              description="A dataset-agnostic, agentic analytics system that autonomously performs EDA, feature engineering, model selection, evaluation, and explainability"
+              ghLink="https://github.com/ansh-ops/decision-intelligence-system.git"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -37,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="ETL Pipeline for Earthquake Forecasting"
               description="Built and maintained an ETL pipeline using Python to process geospatial datasets for earthquake magnitude prediction."
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://drive.google.com/file/d/14oygW0yTHA6Ihobwmn5pausOszjSP5Ws/view?usp=sharing"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -59,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="LLM-Powered Course Recommender"
               description="Built a web app that reads resumes and recommends online courses based on the user’s background and goals. Developed a resume-based recommender system that achieved 90%+ semantic match accuracy across 100+ test cases. Built with Python, Streamlit, FAISS, and transformer models (SentenceTransformers)."
-              //ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/ansh-ops/LLM-Course-Recommender.git"
               //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -73,7 +85,7 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> 
 
           
         </Row>
