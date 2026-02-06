@@ -7,7 +7,7 @@ import editor from "../../Assets/Projects/satellite.jpg";
 import chatify from "../../Assets/Projects/chatdb.png";
 import suicide from "../../Assets/Projects/cybersec.jpeg";
 import bitsOfCode from "../../Assets/Projects/earthquake.jpg";
-import decision from "../../Assets/Projects/decisionintelligence.jpg";
+import decision from "../../Assets/Projects/decisionintelligence.png";
 
 function Projects() {
   return (
