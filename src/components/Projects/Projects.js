@@ -8,6 +8,7 @@ import chatify from "../../Assets/Projects/chatdb.png";
 import suicide from "../../Assets/Projects/cybersec.jpeg";
 import bitsOfCode from "../../Assets/Projects/earthquake.jpg";
 import decision from "../../Assets/Projects/decisionintelligence.png";
+import canary from "../../Assets/Projects/canary.jpeg";
 
 function Projects() {
   return (
@@ -18,9 +19,19 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={canary}
+              isBlog={false}
+              title="CanaryML — Kubernetes ML Deployment Platform"
+              description="Developed a Kubernetes-based ML inference system supporting canary rollout, automated rollback, and metrics-driven observability using Dockerized FastAPI services"
+              ghLink="https://github.com/ansh-ops/ml-canary-platform.git"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>            
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
