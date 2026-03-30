@@ -1,0 +1,101 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import leaf from "../../Assets/Projects/recommendation.webp";
+import editor from "../../Assets/Projects/satellite.jpg";
+import chatify from "../../Assets/Projects/chatdb.png";
+import suicide from "../../Assets/Projects/cybersec.jpeg";
+import bitsOfCode from "../../Assets/Projects/earthquake.jpg";
+import decision from "../../Assets/Projects/decisionintelligence.png";
+import canary from "../../Assets/Projects/canary.jpeg";
+
+function Projects() {
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          Selected <strong className="purple">projects</strong>
+        </h1>
+        <p className="section-copy">
+          A few projects that best reflect my approach to data, ML, and
+          product-minded engineering.
+        </p>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={canary}
+              isBlog={false}
+              title="CanaryML - Kubernetes ML Deployment Platform"
+              description="Developed a Kubernetes-based ML inference system supporting canary rollout, automated rollback, and metrics-driven observability using Dockerized FastAPI services."
+              ghLink="https://github.com/ansh-ops/ml-canary-platform.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="ChatDB"
+              description="Built a natural language interface using Gemini to convert user questions into executable SQL queries and make structured data easier to explore."
+              ghLink="https://github.com/ansh-ops/DSCI551-final-project.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={decision}
+              isBlog={false}
+              title="Autonomous Decision Intelligence System"
+              description="Created a dataset-agnostic analytics system that automates EDA, feature engineering, model selection, evaluation, and explainability."
+              ghLink="https://github.com/ansh-ops/decision-intelligence-system.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="ETL Pipeline for Earthquake Forecasting"
+              description="Built and maintained a Python ETL workflow to process geospatial datasets for earthquake magnitude prediction."
+              primaryLink="https://drive.google.com/file/d/14oygW0yTHA6Ihobwmn5pausOszjSP5Ws/view?usp=sharing"
+              primaryLabel="Report"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="CNN-Based Land Cover Detection"
+              description="Built and deployed a TensorFlow CNN for classifying satellite imagery, with OpenCV preprocessing to improve real-time performance."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="LLM-Powered Course Recommender"
+              description="Built a resume-aware web app that recommends courses using FAISS and transformer embeddings, reaching 90%+ semantic match accuracy across 100+ test cases."
+              ghLink="https://github.com/ansh-ops/LLM-Course-Recommender.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Cyber Security Threat Intelligence Dashboard"
+              description="Built a Streamlit dashboard that clusters cyber threat reports, extracts keywords, and forecasts weekly incident trends to support proactive analysis."
+            />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Projects;
