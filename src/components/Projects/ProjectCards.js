@@ -13,6 +13,15 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt={props.title} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
+        {props.tags && props.tags.length > 0 && (
+          <div className="project-tags">
+            {props.tags.map((tag) => (
+              <span key={tag} className="project-tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
