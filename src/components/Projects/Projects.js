@@ -66,6 +66,7 @@ function Projects() {
               tags={["Machine Learning", "Computer Vision", "PyTorch", "Streamlit"]}
               description="Built a PyTorch-based computer vision application to classify images as authentic or AI-generated, with checkpoint comparison, Streamlit-based testing, and external evaluation added to address real-world hard cases. Best internal checkpoint subset reached 0.957 accuracy and 0.9925 AUROC."
               ghLink="https://github.com/ansh-ops/image-authenticity-detector"
+              demoLink="https://aiimageverify.streamlit.app"
             />
           </Col>
 
@@ -99,6 +100,7 @@ function Projects() {
               tags={["LLM", "Recommendation", "FAISS", "Transformers"]}
               description="Built a resume-aware web app that recommends courses using FAISS and transformer embeddings, reaching 90%+ semantic match accuracy across 100+ test cases."
               ghLink="https://github.com/ansh-ops/LLM-Course-Recommender.git"
+              demoLink="https://llm-course-recommender-anshs-projects-b955ed4b.vercel.app"
             />
           </Col>
 
