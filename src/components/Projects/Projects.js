@@ -10,6 +10,7 @@ import bitsOfCode from "../../Assets/Projects/earthquake.jpg";
 import decision from "../../Assets/Projects/decisionintelligence.png";
 import canary from "../../Assets/Projects/canary.jpeg";
 import imageAuth from "../../Assets/Projects/imageauth.png";
+import agentOs from "../../Assets/Projects/agentos.png";
 
 function Projects() {
   return (
@@ -25,6 +26,17 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={agentOs}
+              isBlog={false}
+              title="Agent OS"
+              tags={["Multi-Agent Systems", "FastAPI", "Next.js", "Gemini"]}
+              description="Built a production-style MVP for multi-agent AI workflows where a supervisor routes tasks across specialist and critic agents, tracks shared memory and execution traces, enforces permissions, and supports document and CSV ingestion through a full-stack dashboard."
+              ghLink="https://github.com/ansh-ops/agent-os.git"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={canary}
