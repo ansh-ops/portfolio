@@ -29,9 +29,9 @@ function Home() {
               </h1>
 
               <p className="hero-summary">
-                Applied Data Science graduate student at USC focused on machine
-                learning systems, intelligent analytics, and clean,
-                recruiter-friendly execution.
+                AI and LLM engineer in training at USC, focused on agentic
+                workflows, backend APIs, retrieval systems, and
+                production-style machine learning applications.
               </p>
 
               <div className="hero-type">

@@ -3,13 +3,25 @@ import { Col, Row } from "react-bootstrap";
 
 const experienceItems = [
   {
+    title: "Software Engineer, Data Systems (Contract)",
+    organization: "Eurus Lifecare",
+    location: "Ahmedabad, India",
+    period: "Jan 2024 - Jun 2024",
+    points: [
+      "Developed FastAPI and PostgreSQL services powering inventory and operational workflows, creating structured data foundations for automation and analytics across 500+ records.",
+      "Implemented alerting and monitoring pipelines that reduced manual tracking effort and improved operational visibility through automated status analysis.",
+      "Worked with business stakeholders to identify repetitive decision workflows and convert them into scalable API-backed systems for future AI-driven automation.",
+    ],
+  },
+  {
     title: "Data Science Intern",
     organization: "Data Security Council of India",
     location: "Noida, India",
     period: "Jan 2023 - Jul 2023",
     points: [
-      "Built Python-based data processing and NLP pipelines for 100k+ cybersecurity records supporting national threat intelligence work.",
-      "Standardized modular analytics workflows to improve data quality, reuse, and reliability across multiple analysis tasks.",
+      "Engineered Python NLP pipelines on 100K+ cybersecurity records, extracting signals from messy text data for threat intelligence workflows.",
+      "Standardized reusable preprocessing and validation components across 3+ analysis tasks, improving consistency for downstream insight generation.",
+      "Shared technical findings with analysts and domain stakeholders, translating model outputs into clearer intelligence summaries.",
     ],
   },
   {
@@ -18,8 +30,8 @@ const experienceItems = [
     location: "Mumbai, India",
     period: "May 2022 - Jun 2022",
     points: [
-      "Developed full-stack internal applications with React, REST APIs, and Python backends for interactive analytics dashboards.",
-      "Improved user engagement by 35% and reduced feedback cycles by 25% through API and UI optimization.",
+      "Worked with designers and engineers to deploy React, REST API, and Python dashboard features across 3 departments, increasing engagement by 35%.",
+      "Identified API and UI improvements that reduced stakeholder feedback cycles by 25% during pilot testing.",
     ],
   },
 ];
@@ -34,9 +46,10 @@ const educationItems = [
     coursework: [
       "Machine Learning",
       "Information Retrieval",
-      "Data Management",
       "Data Mining",
+      "Data Management",
       "Python Programming",
+      "Statistics",
     ],
   },
   {
@@ -47,10 +60,9 @@ const educationItems = [
     coursework: [
       "Artificial Intelligence",
       "Pattern Recognition",
-      "Applied Data Analysis",
-      "Cyber Security",
-      "Cloud Computing",
       "Data Structures and Algorithms",
+      "Operating Systems",
+      "Applied Data Analysis",
     ],
   },
 ];
@@ -94,9 +106,9 @@ function ExperienceEducation() {
         Experience & <strong className="purple">education</strong>
       </h1>
       <p className="section-copy">
-        A recruiter-friendly snapshot of the internships, academic training,
-        and USC coursework that shaped my work in machine learning, analytics,
-        and software systems.
+        A recruiter-friendly snapshot of the engineering, data, and AI work
+        that shaped my current focus on LLM systems, backend APIs, and
+        production-style machine learning workflows.
       </p>
 
       <Row className="timeline-grid">

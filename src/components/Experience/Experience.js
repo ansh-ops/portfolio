@@ -16,9 +16,10 @@ function Experience() {
           </h1>
           <p className="section-copy experience-copy">
             I&apos;m currently pursuing my M.S. in Applied Data Science at USC
-            and have internship experience across data science and software
-            engineering. This section gives a quick timeline view for recruiters
-            who want context before diving into projects.
+            while building toward AI and LLM engineering work across backend
+            systems, agentic workflows, and production-style ML applications.
+            This section gives recruiters a quick timeline view before diving
+            into projects.
           </p>
         </div>
 

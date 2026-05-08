@@ -17,20 +17,20 @@ function Home2() {
               A little <span className="purple">about me</span>
             </h1>
             <p className="home-about-body">
-              I enjoy building machine learning and analytics products that turn
-              messy data into something decision-makers can actually use.
+              I enjoy building AI products that turn messy workflows and data
+              into systems people can actually trust and use.
               <br />
               <br />
               My strongest tools are
               <i>
                 <b className="purple">
-                  {" "}Python, SQL, C++, and modern ML tooling
+                  {" "}Python, FastAPI, SQL, embeddings, RAG pipelines, and modern ML tooling
                 </b>
               </i>
               , with hands-on work across
               <i>
                 <b className="purple">
-                  {" "}data science, ML systems, and applied AI
+                  {" "}LLM engineering, backend systems, agentic workflows, and applied AI
                 </b>
               </i>
               .
@@ -40,7 +40,7 @@ function Home2() {
               strong engineering habits with
               <i>
                 <b className="purple">
-                  {" "}experimentation, evaluation, and product thinking
+                  {" "}evaluation, observability, and product thinking
                 </b>
               </i>
               .
