@@ -12,7 +12,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row className="align-items-center">
         <Col md="4" className="footer-copywright">
-          <h3>Los Angeles, CA</h3>
+          <h3>New York Metropolitan Area</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Ansh Krishna</h3>

@@ -3,6 +3,18 @@ import { Col, Row } from "react-bootstrap";
 
 const experienceItems = [
   {
+    title: "AI Engineer Intern",
+    organization: "Leaniar LLC",
+    location: "Remote, USA",
+    period: "Jul 2026 - Present",
+    points: [
+      "Architect and develop enterprise Document Suite features using Django, AngularJS, ElectronJS, and Python to streamline document-centric business workflows.",
+      "Design scalable REST APIs integrating SAP systems with enterprise applications and improving interoperability across internal business platforms.",
+      "Develop Claude- and GPT-powered automation for document processing, workflow orchestration, debugging, testing, and deployment.",
+      "Engineer modular desktop and web components with an emphasis on maintainability, extensibility, performance, and production readiness.",
+    ],
+  },
+  {
     title: "Software Engineer, Data Systems (Contract)",
     organization: "Eurus Lifecare",
     location: "Ahmedabad, India",
@@ -115,7 +127,7 @@ function ExperienceEducation() {
         <Col lg={6} className="timeline-column">
           <div className="timeline-column-header">
             <h2>Experience</h2>
-            <p>Hands-on work across data science and software engineering.</p>
+            <p>Hands-on work across AI, data, and software engineering.</p>
           </div>
           <div className="timeline-track">
             {experienceItems.map((item) => (

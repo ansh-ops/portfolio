@@ -29,9 +29,9 @@ function Home() {
               </h1>
 
               <p className="hero-summary">
-                AI and LLM engineer in training at USC, focused on agentic
-                workflows, backend APIs, retrieval systems, and
-                production-style machine learning applications.
+                AI Engineer Intern at Leaniar with an M.S. in Applied Data
+                Science from USC, focused on enterprise automation, agentic
+                workflows, backend APIs, and production-ready AI systems.
               </p>
 
               <div className="hero-type">

@@ -9,10 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             I&apos;m <span className="purple">Ansh Krishna</span>, based in{" "}
-            <span className="purple">Los Angeles, CA</span>.
+            <span className="purple">New York Metropolitan Area</span>.
             <br />
-            I&apos;m currently pursuing a Master&apos;s in Applied Data Science at
-            the University of Southern California.
+            I hold a Master&apos;s in Applied Data Science from the University of
+            Southern California and currently work as an AI Engineer Intern at
+            Leaniar.
             <br />
             My background is in Computer Science, and I enjoy building systems
             that sit at the intersection of data, software, and

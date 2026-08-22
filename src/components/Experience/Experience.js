@@ -15,11 +15,10 @@ function Experience() {
             grounded in <strong className="purple">education</strong>
           </h1>
           <p className="section-copy experience-copy">
-            I&apos;m currently pursuing my M.S. in Applied Data Science at USC
-            while building toward AI and LLM engineering work across backend
-            systems, agentic workflows, and production-style ML applications.
-            This section gives recruiters a quick timeline view before diving
-            into projects.
+            I hold an M.S. in Applied Data Science from USC and currently build
+            AI-powered enterprise software at Leaniar across backend systems,
+            document automation, and production workflows. This section gives
+            recruiters a quick timeline view before diving into projects.
           </p>
         </div>
 
